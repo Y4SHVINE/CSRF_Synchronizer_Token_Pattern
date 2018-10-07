@@ -42,7 +42,7 @@ app.get('/token', function (req, res) {
 });
 
 app.post('/login', function (req, res) {
-  if (req.body.username == "ssd" && req.body.password == "ssd123") {
+  if (req.body.username == "ssd" && req.body.password == "123") {
     res.cookie('username', req.body.username);
 
     let token = generateTocken();
