@@ -1,26 +1,26 @@
 {
-  "name": "csrf_synchronizer_token_pattern",
+  "name": "synchronizer-token-pattern",
   "version": "1.0.0",
-  "description": "demo application",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Y4SHVINE/CSRF_Synchronizer_Token_Pattern.git"
-  },
-  "author": "y4shvine",
+  "keywords": [],
+  "author": "Hasitha Seneviratne",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Y4SHVINE/CSRF_Synchronizer_Token_Pattern/issues"
-  },
-  "homepage": "https://github.com/Y4SHVINE/CSRF_Synchronizer_Token_Pattern#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "csurf": "^1.9.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "save": "^2.3.2"
+    "express-session": "^1.15.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
   }
 }
