@@ -8,7 +8,7 @@
     "dev": "nodemon ."
   },
   "keywords": [],
-  "author": "Hasitha Seneviratne",
+  "author": "Yashvida Jayasekara",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
